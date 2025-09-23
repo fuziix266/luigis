@@ -198,7 +198,7 @@ html {
 }
 
 .inicio .boton-3 {
-  cursor.
+  cursor: pointer;
   position: relative;
   margin-bottom: 0.8rem;
   display: flex;
