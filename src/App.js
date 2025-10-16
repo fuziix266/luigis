@@ -13,6 +13,7 @@ import Miercoles from './pages/Miercoles';
 import Jueves from './pages/Jueves';
 import Viernes from './pages/Viernes';
 import Sabado from './pages/Sabado';
+import Sello from './pages/Sello';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Route path="/jueves" element={<Jueves />} />
       <Route path="/viernes" element={<Viernes />} />
       <Route path="/sabado" element={<Sabado />} />
+      <Route path="/sello" element={<Sello />} />
     </Routes>
   );
 }
